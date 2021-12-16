@@ -9,7 +9,7 @@
 # 
 # * we expect you have configured your domain DNS settings already as per the instructions.
 
-IS_ENABLED_TELEMETRY=true
+IS_ENABLED_TELEMETRY=false
 
 if [[ $1 == 'disable-telemetry' ]]; then
   IS_ENABLED_TELEMETRY=false
